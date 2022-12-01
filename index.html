@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>To do list</p>
+    <H1>To do list</H1>
+    <form action="">
+      <label for="">Name</label>
+      <input type="text"  id="title">
+
+      <label for="">Date</label>
+      <input type="date" id="date">
+
+
+      <select name="" id="status">
+        <option value="done">Done</option>
+        <option value="not-started">Not started</option>
+        <option value="in-progress">In Progress</option>
+      </select>
+
+      <input type="submit" id="btn" value="Calculate">
+    </form>
+    <script src="./javascript.js"></script>
+
+    <div id="todoList"></div>
+    <div id="button"></div>
   </body>
 </html>
